@@ -1,0 +1,27 @@
+Trackspy
+========
+Trackspy is a script to visit a provided list of websites and collect information on various trackers they use.
+
+Requirements
+------------
+* Python 2.6+ OR Python 3+ (http://python.org)
+* The Selenium libraries for Python (http://seleniumhq.org)
+* Firefox (http://getfirefox.com)
+
+Usage
+-----
+To run this script, the invocation is
+
+     python trackspy.py <file with list of URLs>
+
+After running through all of the provided URLs, Trackspy will output the results to stdout, and in a sqlite3 database that contains a table for each type of web tracker being watched.
+
+Features, bugs, etc
+-------------------
+At the moment, there's a bunch of work to be done, from supporting other browsers to tracking more trackers. Take a look at https://dharwood.github.com/trackspy/issues for a rundown.
+
+Author
+------
+Trackspy is copyright (c) 2013 David Harwood
+
+Trackspy is free software, licensed under the terms of the MIT license. A copy of the license can be found in the file named LICENSE or at http://opensource.org/licenses/MIT
